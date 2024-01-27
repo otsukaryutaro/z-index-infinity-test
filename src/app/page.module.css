@@ -19,7 +19,7 @@
 
 .freezer {
   background-color: rgba(233, 229, 244, 0.85);
-  z-index: 530000;
+  z-index: calc(infinity);
   top: 0;
   left: 0;
 }
@@ -30,4 +30,8 @@
   z-index: 5;
   top: 100px;
   left: 100px;
+}
+
+.wrapper-freeza {
+  z-index: 1;
 }
