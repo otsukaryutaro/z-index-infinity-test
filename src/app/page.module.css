@@ -19,7 +19,7 @@
 
 .freezer {
   background-color: rgba(233, 229, 244, 0.85);
-  z-index: calc(infinity);
+  z-index: calc(infinity + 1);
   top: 0;
   left: 0;
 }
@@ -27,11 +27,11 @@
 .mob {
   position: absolute;
   background-color: #f9f9f9;
-  z-index: 5;
+  z-index: calc(infinity);
   top: 100px;
   left: 100px;
 }
 
-.wrapper-freeza {
+/* .wrapper-freeza {
   z-index: 1;
-}
+} */
